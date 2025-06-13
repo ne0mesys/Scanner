@@ -1,4 +1,4 @@
-# Scanner.sh by ne0mesys
+# 🌐 Scanner.sh by ne0mesys
 *This script has been created by ne0mesys and serves as an automation tool for the IP Address and ports scanning, hope you guys like it ;)*
 
 ## Welcome
