@@ -85,6 +85,8 @@ sudo mv scanner.sh /usr/local/bin/scanner
 
 This tool has been created in order to speed up the enumeration process of a penetration attack. Instead of typing all the commands in the terminal, I have decided to shorten the process with this script. 
 
+This script rather than just allowing to have  the whole enumeration process automated, allows as well to have it in a colorful output that enhances the whole process.
+
 The use of parameters that can be indicated by the user, allows to perform the enumeration step quicker and better structured. This script uses the following tools in order to perform this action: ***ping*** & ***nmap***. It uses as well several customized functions created for this script, such as *extract_ports* & *continueScanning*. 
 
 The **parameters** of this script are the following ones: 
