@@ -3,7 +3,7 @@
 
 ## Welcome
 
-This software serves as an automation tool for the enumeration penetration process. It helps to scan, indicate and show all the relevant information of this step. This bash script allows penetration testers to have a quicker and better structured enumeration step that helps providing information about the ports and IP Address scanning. In order to execute the script **you will need Root privileges!** 
+This software serves as an automation tool for the enumeration penetration process. It helps to scan, indicate and show all the relevant information of this step. This bash script allows penetration testers to have a quicker and better structured enumeration step providing information about the ports and IP Address scanning. In order to execute the script **you will need Root privileges!** 
 
 Please! Be careful at the time to input the IP Address of the target, otherwise the script could throw an error. Same for the ports, if you want to input the ports, input them as you do with ***nmap*** --> ***80,443,445***
 
@@ -25,6 +25,8 @@ You will need as well a software that allows you to paste your clipboard with co
 sudo apt install xclip
  ```
 
+**Without this software the script won't work!!**
+
 ### For Arch Linux 
 
 *Nmap* is required in order to perform the whole scanning part. In case you don't have it installed, you can find the instructions below for Arch Linux users: 
@@ -36,7 +38,7 @@ You will need as well a software that allows you to paste your clipboard with co
 sudo pacman -S xclip
  ```
 
-**Without this software the scrip won't work!!**
+**Without this software the script won't work!!**
 
 ## Installation
 
@@ -65,7 +67,7 @@ Once we are in the same folder of the software, we can proceed to enable its exe
 sudo chmod +x scanner.sh
 ```
 
-The software includes the Shebang line ```#!/usr/bin/bash``` which allows the user to execute it directly, we can do this using the command ```./scanner.sh```. 
+The software includes the Shebang line ```#!/usr/bin/bash``` which allows the user to execute it directly. We can do this using the command ```./scanner.sh```. 
 
 However, it would be necessary to have the script **always** in the same directory we are in. Therefore, I highly suggest to move a copy with execution permits to the **$PATH** so we use it as a command:  ```sanner``` 
 
@@ -80,11 +82,11 @@ sudo mv scanner.sh /usr/local/bin/scanner
 
 ## About
 
-This tool has been created in order to speed up the enumeration process of the a penetration attack. Instead of typing all the commands in the terminal, I have decided to shorten the process. 
+This tool has been created in order to speed up the enumeration process of a penetration attack. Instead of typing all the commands in the terminal, I have decided to shorten the process with this script. 
 
 The use of parameters that can be indicated by the user, allows to perform the enumeration step quicker and better structured. This script uses the following tools in order to perform this action: ***ping*** & ***nmap***. It uses as well several customized functions created for this script, such as *extract_ports* & *continueScanning*. 
 
-The parameters of this script are the following ones: 
+The **parameters** of this script are the following ones: 
 * -i) Indicates the IP Address.
 * -p) Indicates the Ports chosen.
 * -o) Shows the flags used for each scan.
