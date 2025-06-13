@@ -32,5 +32,6 @@ sudo apt install xclip
 Here's a short documentation about how to install the script: 
 ```
 sudo apt install git
-sudo git clone https://github.com/ne0mesys/scanner.sh 
+sudo git clone https://github.com/ne0mesys/Scanner.sh
+cd Scanner.sh
  ```
