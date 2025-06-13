@@ -17,12 +17,12 @@ This tool uses different parameters that can be indicated by the user allowing t
 
 ## Requirements 
 
-**Nmap** is required in order to perform the whole scanning part. In case you don't have it installed it you can find the instructions below: 
+**Nmap** is required in order to perform the whole scanning part. In case you don't have it installed, you can find the instructions below: 
 ```
 sudo apt update && sudo apt upgrade
 sudo apt install nmap
  ```
-In order to leverage the whole script you will need as well a softare that allows you to paste your clipboard with commands, this software is called **xclip**. In case you don't have it installed it you can find the instructions below: 
+You will need as well a software that allows you to paste your clipboard with commands,  **xclip**. In case you don't have it installed, you can find the instructions below: 
 ```
 sudo apt install xclip
  ```
