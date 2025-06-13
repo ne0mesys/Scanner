@@ -7,7 +7,8 @@ This software serves as an automation tool for the enumeration penetration proce
 
 Please! Be careful at the time to input the IP Address of the target, otherwise the script could throw an error. Same for the ports, if you want to input the ports, input them as you do with ***nmap*** --> ***80,443,445***
 
-Thanks for using this tool and I hope you guys like it ;) 
+This tool is developed strictly for educational and ethical purposes. I DO NOT take any responsibility for the misuse of this tool.
+
 
 By ne0mesys
 
