@@ -31,7 +31,7 @@ function helpPanel(){
   echo -e "\n${yellow}[+]${end}${gray} Usage: ${end}"
   echo -e "\n\t${purple}-i${end}${gray}) Specifies the IP Address.${end}"
   echo -e "\t${purple}-p${end}${gray}) Specifies the ports.${end}"
-  echo -e "\t${purple}-o${end}${gray}) Shows the flags used for each option.${end}"
+  echo -e "\t${purple}-o${end}${gray}) Shows the flags used for each option (fast/slow).${end}"
   echo -e "\t${purple}-h${end}${gray}) Shows the help panel.${end}"
   echo -e "\n${green}[+] By ne0mesys${end}"
 }
