@@ -33,7 +33,7 @@ function helpPanel(){
   echo -e "\t${purple}-p${end}${gray}) Specifies the ports.${end}"
   echo -e "\t${purple}-o${end}${gray}) Shows the flags used for each option (fast/slow).${end}"
   echo -e "\t${purple}-h${end}${gray}) Shows the help panel.${end}"
-  echo -e "\n${green}[+] By ne0mesys${end}"
+  echo -e "\n${green}[+] By ne0mesys${end}\n"
 }
 
 function extractPorts () {
