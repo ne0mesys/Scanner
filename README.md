@@ -70,7 +70,7 @@ sudo chmod +x scanner.sh
 
 The software includes the Shebang line ```#!/bin/bash``` which allows the user to execute it directly. We can do this using the command ```./scanner.sh```. 
 
-However, it would be necessary to have the script **always** in the same directory we are in. Therefore, I highly suggest to move a copy with execution permits to the **$PATH** so we use it as a command:  ```sanner``` 
+However, it would be necessary to have the script **always** in the same directory we are in. Therefore, I highly suggest to move a copy with execution permits to the **$PATH** so we use it as a command:  ```scanner``` 
 
 In order to do this perform the next commands in the terminal: 
 ```
