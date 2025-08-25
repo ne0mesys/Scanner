@@ -44,7 +44,7 @@ function extractPorts () {
 	echo -e "\t${green}[+]${end}${gray} Open Ports:${end}${blue} $ports${end}\n" >> extractPorts.tmp
 	echo $ports | tr -d '\n' | xclip -sel clip
 	echo -e "${green}[+]${end}${gray} Ports copied to clipboard${end}\n" >> extractPorts.tmp
-	bat extractPorts.tmp
+	batcat extractPorts.tmp
 	rm extractPorts.tmp
 }
 
